@@ -54,7 +54,7 @@ def generate_name():
 def generate_password():
     """随机生成密码（8-12位，包含大小写字母、数字、特殊字符）"""
     length = random.randint(8, 12)
-    chars = string.ascii_letters + string.digits + "!@#$%^&*"
+    chars = string.ascii_letters + string.digits + "$@&%"
     password = ''.join(random.choice(chars) for _ in range(length))
     
     # 确保包含至少一个大写、小写、数字和特殊字符
@@ -64,8 +64,8 @@ def generate_password():
         password = password[:-1] + random.choice(string.ascii_lowercase)
     if not any(c.isdigit() for c in password):
         password = password[:-1] + random.choice(string.digits)
-    if not any(c in "!@#$%^&*" for c in password):
-        password = password[:-1] + random.choice("!@#$%^&*")
+    if not any(c in "$@&%" for c in password):
+        password = password[:-1] + random.choice("$@&%")
     
     return password
 
@@ -388,8 +388,8 @@ def main():
             
             # 成功后短暂等待，避免请求过快
             if result:
-                print("\n等待60秒后进行下一次注册...")
-                time.sleep(60)
+                print("\n等待30秒后进行下一次注册...")
+                time.sleep(30)
                 
         except KeyboardInterrupt:
             print("\n\n用户中断，程序退出")
