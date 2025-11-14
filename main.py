@@ -54,13 +54,13 @@ def generate_name():
 def generate_password():
     """随机生成密码（10-14位，包含大小写字母、数字、特殊字符，特殊字符占比更多）"""
     length = random.randint(10, 14)
-    special_chars = ")*+,-.:;<=>?@[]^_`{|}"
+    special_chars = "$%@"
     
-    # 确保密码包含足够的特殊字符（2-4个）
+    # 确保密码包含足够的特殊字符（4-6个）
     num_special = random.randint(4, 6)
-    num_upper = random.randint(2, 3)
-    num_lower = random.randint(2, 3)
-    num_digit = random.randint(2, 3)
+    num_upper = random.randint(4, 6)
+    num_lower = random.randint(4, 6)
+    num_digit = random.randint(4, 6)
     
     # 剩余长度随机分配
     remaining = length - (num_special + num_upper + num_lower + num_digit)
